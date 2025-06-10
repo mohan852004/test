@@ -1,0 +1,9 @@
+name: test ci/cd
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps: 
+    - name: Print hello world
+      run: echo "hello world"
